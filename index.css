@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap'); /* MONTSERRAT */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@800&family=Montserrat:wght@500;700&display=swap'); /* FAUNCES */
+
+@media (max-width:1440px)  {
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+        width: 375px;
+    }
+
+    #vitrine {
+    
+        position:absolute;
+        left:4%;
+        top:4%;
+        width: 92%;
+        height: 92%;
+
+        border-radius:2vh;
+
+    }
+
+    #img {
+        top:0;
+        left:0;
+        margin:0;
+        position:relative;
+        width:100%;
+        height:30%;
+        background-image:url('./img/image-product-mobile.jpg');
+        background-size: cover;
+
+        border-top-left-radius: 2vh;
+        border-top-right-radius: 2vh;
+    }
+
+    #structure {
+        position:relative;
+        top:-2.9vh;
+        left:0;
+
+        width:100%;
+        height:50%;
+        margin:0;
+        background-color: white;
+
+        border-bottom-right-radius: 2vh;
+        border-bottom-left-radius: 2vh;
+    }
+
+    .oldprice {
+        color:grey;
+        margin-left:3vh;
+        font-size:1.7vh;
+        font-weight: lighter;
+        text-decoration: line-through;
+    
+        vertical-align:60%;
+    }
+
+    h3 {
+        position:relative;
+        color:grey;
+        font-family: "Montserrat", sans-serif;
+        font-size:1.4vh;
+        font-weight: 300;
+        letter-spacing: 0.5vh;
+        margin-left: 5vh;
+        margin-top:3vh;
+    }
+
+    h2 {
+        position:relative;
+        font-family:"Fraunces", serif;
+        font-weight:bolder;
+        font-size:3.5vh;
+        color: #161B1F;
+        margin-top:0;
+    
+        margin-left: 5vh;
+    }
+    
+    h4 {
+        position:relative;
+        font-family:"Montserrat", sans-serif;
+        color:grey;
+        font-weight: 500;
+        font-size:1.6vh;
+        line-height: 2.4vh;
+    
+        margin-left: 5vh;
+    }
+
+    h1 {
+        position:relative;
+        font-family:"Fraunces", sans-serif;
+        color:#477966;
+        font-weight: 700;
+        font-size:4vh;
+    
+        margin-left: 5vh;
+    }
+    
+    button {
+        border-radius: 1vh;
+        background-color: #1A4031;
+        transition: background-color 0.2s linear;
+        margin-left:4vh;
+        width:80%;
+        height:12%;
+        color: white;
+        text-align: center; 
+        font-size: 2vh;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #17362a;
+    }
+    
+}
+
+
+@media (min-width:1440px)  { 
+
+    html {
+        display:flex;
+        justify-content: center;
+    }
+    
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+        width: 1440px;
+    }
+
+    #vitrine {
+        margin:auto;
+        margin-top:10%;
+    
+
+        width: 80vh;
+        height:50vh;
+    }
+
+    #img {
+        float: left;
+        position:relative;
+        display:block;
+        width:50%;
+        height:100%;
+        background-image:url('./img/image-product-desktop.jpg');
+        background-size: cover;
+        border-top-left-radius: 2vh;
+        border-bottom-left-radius: 2vh;
+    }
+
+    #structure {
+        width:50%;
+        height:100%;
+        margin:0;
+        padding:0;
+        position:relative;
+        display:inline-block;
+        background-color: white;
+
+        border-top-right-radius: 2vh;
+        border-bottom-right-radius: 2vh;
+
+    }
+
+    h3 {
+        position:relative;
+        color:grey;
+        font-family: "Montserrat", sans-serif;
+        font-size:1.4vh;
+        font-weight: 300;
+        letter-spacing: 0.5vh;
+        margin-left: 5vh;
+        margin-top:3vh;
+    }
+
+    h2 {
+        position:relative;
+        font-family:"Fraunces", serif;
+        font-weight:bolder;
+        font-size:3.5vh;
+        color: #161B1F;
+        margin-top:0;
+    
+        margin-left: 5vh;
+    }
+    
+    h4 {
+        position:relative;
+        font-family:"Montserrat", sans-serif;
+        color:grey;
+        font-weight: 500;
+        font-size:1.6vh;
+        line-height: 2.4vh;
+    
+        margin-left: 5vh;
+    }
+
+    h1 {
+        position:relative;
+        font-family:"Fraunces", sans-serif;
+        color:#477966;
+        font-weight: 700;
+        font-size:4vh;
+    
+        margin-left: 5vh;
+    }
+    
+    button {
+        border-radius: 1vh;
+        background-color: #1A4031;
+        transition: background-color 0.2s linear;
+        margin-left:4vh;
+        width:80%;
+        height:12%;
+        color: white;
+        text-align: center; 
+        font-size: 2vh;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #17362a;
+    }
+}
+
+
+
+.oldprice {
+    color:grey;
+    margin-left:3vh;
+    font-size:1.7vh;
+    font-weight: lighter;
+    text-decoration: line-through;
+
+    vertical-align:60%;
+}
+
+s {
+    text-decoration: overline;
+}
